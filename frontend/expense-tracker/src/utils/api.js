@@ -1,1 +1,1 @@
-export const BACKEND_URL = "https://backend-60tl.onrender.com";
+export const BACKEND_URL = "https://sonu-expense-tracker.onrender.com";
