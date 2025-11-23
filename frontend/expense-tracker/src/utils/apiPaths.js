@@ -1,4 +1,6 @@
-export const BASE_URL = "http://localhost:8000";
+// Use Vite environment variable `VITE_API_BASE` when available (set this in Render or locally),
+// otherwise fall back to localhost for development.
+export const BASE_URL = import.meta.env.VITE_API_BASE || "http://localhost:8000";
 
 // utils/apiPaths.js
 export const API_PATHS = {

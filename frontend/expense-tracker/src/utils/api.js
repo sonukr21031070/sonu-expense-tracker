@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://backend-60tl.onrender.com";
